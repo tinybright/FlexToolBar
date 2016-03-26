@@ -1,7 +1,7 @@
 # FlexToolBar
-![image](https://github.com/tinybright/FlexToolBar/blob/master/sample.png?raw=false)
-对有ToolBar的页面进行了封装，方便设置ToolBar。使用了标题居中的样式。
 
+对有ToolBar的页面进行了封装，方便设置ToolBar。使用了标题居中的样式。
+![image](https://github.com/tinybright/FlexToolBar/blob/master/sample.jpg?raw=true)
   >使用
 
 直接继承BaseActivity或者自己参照BaseActivity实现一个基类：
