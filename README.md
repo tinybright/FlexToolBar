@@ -1,5 +1,5 @@
 # FlexToolBar
-
+![image](https://github.com/tinybright/FlexToolBar/blob/master/sample.png?raw=false)
 对有ToolBar的页面进行了封装，方便设置ToolBar。使用了标题居中的样式。
 
   >使用
