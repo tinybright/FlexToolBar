@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.tinylight.flextoolbar.FlexToolBar
+            android:id="@+id/ftb_main"
+            style="@style/ftb_text_text_text"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+        </com.tinylight.flextoolbar.FlexToolBar>
+
+        <com.tinylight.flextoolbar.FlexToolBar
+            style="@style/ftb_text_text_null"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+        </com.tinylight.flextoolbar.FlexToolBar>
+
+        <com.tinylight.flextoolbar.FlexToolBar
+            style="@style/ftb_icon_text_null"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+        </com.tinylight.flextoolbar.FlexToolBar>
+
+        <com.tinylight.flextoolbar.FlexToolBar
+            style="@style/ftb_icon_text_icon"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+        </com.tinylight.flextoolbar.FlexToolBar>
+
+        <com.tinylight.flextoolbar.FlexToolBar
+            style="@style/ftb_icon_text_icontext"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+        </com.tinylight.flextoolbar.FlexToolBar>
+    </LinearLayout>
+</ScrollView>

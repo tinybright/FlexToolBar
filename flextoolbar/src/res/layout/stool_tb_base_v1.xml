@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_actvt"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.tinylight.flextoolbar.FlexToolBar
+        android:background="@color/stool_tb_backgroundcolor"
+        android:fitsSystemWindows="true"
+        android:layout_height="@dimen/stool_tb_h"
+        android:layout_width="match_parent"
+        android:id="@+id/id_tool_bar"
+        app:navigationIcon="?attr/homeAsUpIndicator"/>
+</FrameLayout>

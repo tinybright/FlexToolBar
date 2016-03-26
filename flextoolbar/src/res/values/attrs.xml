@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="FlexToolBar" tools:ignore="ResourceName">
+        <attr name="ftb_text_left" format="string|reference"></attr>
+        <attr name="ftb_text_right" format="string|reference"></attr>
+        <attr name="ftb_text_center" format="string|reference"></attr>
+        <attr name="ftb_icon_left" format="reference"></attr>
+        <attr name="ftb_icon_right" format="reference"></attr>
+        <attr name="ftb_icon_center" format="reference"></attr>
+        <attr name="ftb_drawable_h" format="reference|dimension"></attr>
+        <attr name="ftb_drawable_padding" format="reference|dimension"></attr>
+    </declare-styleable>
+</resources>

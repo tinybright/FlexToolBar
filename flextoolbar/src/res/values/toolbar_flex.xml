@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stool_tb_h">44dp</dimen>
+    <dimen name="stool_tb_pad_text">8dp</dimen>
+    <dimen name="stool_tb_pad_icon">8dp</dimen>
+    <dimen name="stool_tb_pad_drawable">0dp</dimen>
+
+    <dimen name="stool_tb_fontsize_normal">15dp</dimen>
+    <dimen name="stool_tb_fontsize_title">18dp</dimen>
+    <color name="stool_tb_backgroundcolor">?attr/colorPrimary</color>
+    <color name="stool_tb_fontcolor_normal">#FFFFFF</color>
+    <color name="stool_tb_fontcolor_title">#FFFFFF</color>
+
+    <style name="stool_tb_tv_normal">
+        <item name="android:drawablePadding">@dimen/stool_tb_pad_drawable</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:textSize">@dimen/stool_tb_fontsize_normal</item>
+        <item name="android:textColor">@color/stool_tb_fontcolor_normal</item>
+        <item name="android:paddingLeft">@dimen/stool_tb_pad_text</item>
+        <item name="android:paddingRight">@dimen/stool_tb_pad_text</item>
+
+    </style>
+
+    <style name="stool_tb_tv_normal.left">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="stool_tb_tv_normal.right">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="stool_tb_tv_normal.title">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/stool_tb_fontsize_title</item>
+    </style>
+
+    <style name="stool_tb_iv_normal">
+        <item name="android:visibility">gone</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">@dimen/stool_tb_pad_icon</item>
+    </style>
+
+    <style name="stool_tb_iv_normal.left">
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="stool_tb_iv_normal.right">
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="stool_tb_iv_normal.center">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+</resources>

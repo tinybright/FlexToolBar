@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stool_tb_backgroundcolor">@color/colorAccent</color>
+    <dimen name="stool_tb_h">44dp</dimen>
+
+
+    <style name="ftb_text_text_text">
+        <item name="android:background">@android:color/black</item>
+        <item name="ftb_text_left">left</item>
+        <item name="ftb_text_right">right</item>
+        <item name="ftb_text_center">center</item>
+        <item name="ftb_icon_left">@mipmap/ic_launcher</item>
+        <item name="ftb_icon_center">@mipmap/ic_launcher</item>
+        <item name="ftb_icon_right">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="ftb_text_text_null">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="ftb_text_left">left</item>
+        <item name="ftb_text_center">center</item>
+    </style>
+
+    <style name="ftb_icon_text_null">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="ftb_icon_left">@mipmap/ic_launcher</item>
+        <item name="ftb_text_center">center</item>
+    </style>
+
+    <style name="ftb_icon_text_icon">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="ftb_icon_left">@mipmap/ic_launcher</item>
+        <item name="ftb_text_center">center</item>
+        <item name="ftb_icon_right">@mipmap/ic_launcher</item>
+    </style>
+
+    <style name="ftb_icon_text_icontext">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="ftb_icon_left">@mipmap/ic_launcher</item>
+        <item name="ftb_text_center">center</item>
+        <item name="ftb_icon_right">@mipmap/ic_launcher</item>
+        <item name="ftb_text_right">right</item>
+    </style>
+
+</resources>
